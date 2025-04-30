@@ -228,6 +228,18 @@ main > section{
   margin: auto;
 }
 
+/* Footer style */
+footer{
+  max-width: 1200px;
+  margin: 80px auto;
+  background-color: rgba(255, 244, 231, 1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+
   /* responsive media query */
   @media screen and (max-width: 576px) {
     .navbar, 
