@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-  padding: 0;
-  margin: 0;
-}
-
 .work-sans-font {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -41,6 +36,14 @@
   margin-top: 26px;
 }
 
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main > section{
+  margin-top: 75px;
+}
 
   /* header styles */
 
@@ -88,6 +91,26 @@
   .banner-img{
     max-width: 1200px;
     width: 100%;
+  }
+
+  /* Team and feature related styles */
+  .teams{
+    align-items: center;
+  }
+
+  .team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .our-features{
+    margin-left: 65px;
+    max-width: 470px;
+  }
+
+  .team-img{
+    max-width: 285px;
   }
 
   /* responsive media query */
